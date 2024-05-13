@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justifycontent: center;
+  align-items: center;
+  width: 100%;
+  padding: 10% 20%;
+}
+
+.countryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 16px;
+  width: 100%;
+}
